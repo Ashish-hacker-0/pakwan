@@ -1,0 +1,145 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    z-index: 100;
+}
+.right{
+    width: 50vw;
+   
+}
+.active{
+    position: fixed;
+    display: flex;
+    height: 12vh;
+    z-index: 100;
+    align-items: center;
+    background-color: #FFF4F2;
+    box-shadow: 6px 6px 6px lightgray;
+}
+.right ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    align-items: center;
+}
+.right ul li{
+    margin: 10px;
+    color: white;
+  
+}
+.right ul li:nth-child(1){
+    color: tomato;
+}
+
+.book{
+    font-weight: 700;
+    border-bottom: 3px solid tomato;
+    padding-bottom: 5px;
+    transition: 1s ease;
+}
+.book:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.call{
+    padding: 20px;
+    border-radius: 45px;
+    font-weight: 700;
+    background-color: tomato;
+}
+.left{
+   width: 50vw;
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   justify-content: space-between;
+}
+.left ul{
+    display: flex;
+    flex-direction: row;
+}
+.left ul li{
+    margin: 0 10px;
+    font-weight: 700;
+    color: gray;
+    cursor:pointer;
+    
+}
+.left ul li:hover{
+    color: tomato;
+}
+.left ul li p::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid tomato;
+    transform: scaleX(0);
+    transition: 0.3s ease-in;
+}
+.left ul li p:hover::after{
+    transform: scaleX(100%);
+}
+.left img{
+    width: 16%;
+}
+@media screen and (max-width:600px) {
+    .right{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .navbar{
+        position: fixed;
+        display: flex;
+        height: fit-content;
+        align-items: center;
+        background-color: #FFF4F2;
+    }
+    .right{
+        width: 50vw;
+       
+    }
+    .active{
+        position: fixed;
+        display: flex;
+        height: fit-content;
+        align-items: center;
+        background-color: #FFF4F2;
+        box-shadow: none;
+    }
+    .mobile {
+        background-color: #FFF4F2;
+    }
+    .mobile div{
+        background-color: gray;
+        color: white;
+    }
+    .mobile img{
+        width: 20%;
+    }
+    .mobile div div{
+        display: flex;
+        justify-content: flex-end;
+        padding: 5px;
+        width: 100vw;
+    }
+    .mobile div div button{
+        padding: 6px;
+        background-color: darkred;
+        color: white;
+        border: none;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+    .mobile div div button span{
+        margin-right: 3px;
+    }
+    .mobile ul li{
+        padding: 10px;
+        display: block;
+    }
+}
