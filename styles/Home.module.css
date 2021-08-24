@@ -345,7 +345,6 @@
 @media screen and (max-width:600px) {
   .top{
     display: flex;
-    margin-top: 20vh;
     flex-direction: column;
     background-color: #FFF4F2;
   }
@@ -358,6 +357,7 @@
   .left{
     height: 70vh;
     padding: 10px;
+    margin-top: 15vh;
     width: 100vw;
   }
   .left p:nth-child(1){
