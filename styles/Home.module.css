@@ -35,6 +35,8 @@
   font-size: 20px;
 }
 .left ul{
+
+  
   margin-top: 50px;
 
 }
@@ -343,6 +345,7 @@
 @media screen and (max-width:600px) {
   .top{
     display: flex;
+    margin-top: 20vh;
     flex-direction: column;
     background-color: #FFF4F2;
   }

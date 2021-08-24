@@ -122,7 +122,7 @@ export default function Home() {
             <img src="/6.jpeg"/>
             <img src="/7.jpeg"/>
           </div>
-          <button><AiFillInstagram/> <span>@pakwandbg</span></button>
+          <button><a href="https://www.instagram.com/pakwandbg/" target="_blank"> <AiFillInstagram/> <span>@pakwandbg</span></a></button>
        </div>
     </div>
   )
