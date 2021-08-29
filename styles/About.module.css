@@ -110,3 +110,120 @@
 .about form p{
     font-size:20px;
 }
+@media screen and (max-width:600px) {
+    .top{
+        display: flex;
+        background-color: #FFF4F2;
+    }
+    
+    .right{
+        display: none;
+        width: 50vw;
+    
+    }
+    .right img{
+        width: 50vw;
+        height: 100%;
+    }
+    .left{
+        display: flex;
+        height: 70vh;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+    }
+    .left p:nth-child(1){
+        text-align: left;
+        font-weight: 800;
+        font-size: 45px;
+        color: #4D312C;
+    }
+    .left p:nth-child(2){
+        font-weight: 200;
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    .left ul{
+    
+        align-self: flex-start;
+        margin-top: 50px;
+    
+    }
+    .left ul li:nth-child(1){
+        padding: 25px 65px;
+        font-size: 20px;
+        background: tomato;
+        color: white;
+        font-weight: 600;
+        margin: 0 15px;
+        border-radius: 40px;
+    }
+    .left ul li:nth-child(2){
+        color: tomato;
+        font-size: 20px;
+    }
+    .left{
+       width: 100%;
+    }
+    .certificate{
+        text-align: center;
+        margin: 10px;
+    }
+    .certificate img{
+        width: 100%;
+    }
+    .owner{
+        display: flex;
+        margin: 10px 5vw;
+        flex-direction: column;
+        padding: 20px;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        
+    }
+    .owner div{
+        width: 100%;
+        text-align: center;
+    }
+    .owner div img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .owner div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 40px;
+    }
+    .owner div:nth-child(2) p:nth-child(1){
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .owner div:nth-child(2) p:nth-child(2){
+        font-weight: 500;
+    }
+    .owner div:nth-child(2) p:nth-child(3){
+        font-weight: 600;
+    }
+    .owner div:nth-child(2) p:nth-child(4){
+        font-family: 'Tangerine', cursive;
+        font-size: 40px;
+    }
+    .about form{
+        text-align: center;
+    }
+    .about form button{
+        padding: 10px;
+        font-size: 20px;
+        border: none;
+        background-color: tomato;
+        color: white;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .about form p{
+        font-size:20px;
+    }
+}

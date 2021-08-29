@@ -50,10 +50,10 @@ const Navbar = () => {
                    <button onClick={()=>setList(!list)}> <span>MENU</span><GiHamburgerMenu/></button>
                 </div>
             {list&&<ul>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/menu">Menu</Link></li>
-                    <li><Link href="/about">About</Link></li>
-                    <li><Link href="/contact">Contact</Link></li>
+                    <li onClick={()=>setList(!list)}><Link href="/">Home</Link></li>
+                    <li onClick={()=>setList(!list)}><Link href="/menu" >Menu</Link></li>
+                    <li onClick={()=>setList(!list)}><Link href="/about" >About</Link></li>
+                    <li onClick={()=>setList(!list)}><Link href="/contact">Contact</Link></li>
                 </ul>}
             </div>
           </div>

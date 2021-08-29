@@ -66,6 +66,218 @@
 .dish{
   
     padding: 100px;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+}
+.menu div{
+  padding: 10px;
+}
+.menu img{
+  border-radius: 30px;
+  width: 100%;
+  box-shadow: 5px 5px 5px black;
+
+}
+.dishtop{
+  display: flex;
+  justify-content: space-between;
+}
+.dishtop div:nth-child(1){
+  width: 45%;
+}
+.dishtop div:nth-child(1) p:nth-child(1){
+  color: darkred;
+  font-weight: 700;
+  font-size: 45px;
+}
+.dishtop div:nth-child(1) p:nth-child(2){
+  color: #b89a81;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+.dishtop div:nth-child(2) button{
+  font-weight: 700;
+  color: white;
+  background-color: tomato;
+  padding: 20px 40px;
+  border: none;
+  font-size: 20px;
+  border-radius: 30px;
+}
+.foodSection{
+  border-bottom: 1px solid lightblue;
+  margin: 10px 0;
+  padding: 15px 0;
+}
+.foodSection ul{
+  font-weight: 700;
+  color: gray;
+  font-size: 17px;
+}
+.foodSection ul li{
+
+  margin-right: 50px;
+  padding: 13px 0;
+}
+.active{
+  color: tomato;
+  border-bottom: 4px solid tomato;
+}
+.foodContainer{
+  width: 90vw;
+}
+.foodScroll{
+  
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+@keyframes sroll {
+  0%{
+    margin-left: 0vw;
+  }
+  10%{
+    margin-left: 0vw;
+  }
+  20%{
+    margin-left: 0vw;
+  }
+  30%{
+    margin-left: -27vw;
+  }
+  40%{
+    margin-left: -27vw;
+  }
+  50%{
+    margin-left: -27vw;
+  }
+  60%{
+    margin-left: -54vw;
+  }
+  70%{
+    margin-left: -54vw;
+  }
+  80%{
+    margin-left: -54vw;
+  }
+  90%{
+    margin-left: -81vw;
+  }
+  100%{
+    margin-left: -81vw;
+  }
+}
+.foodScroll div img{
+  width: 100%;
+  border-radius: 100px;
+  height: 180px;
+  width: 180px;
+}
+.foodScroll div{
+  background-color: white;
+  padding: 40px 60px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px;
+  width: 27vw;
+  border: 1px solid lightgray;
+}
+.foodScroll div:hover{
+  box-shadow: 5px 5px 5px rgb(255, 128, 105);
+
+}
+.foodScroll div p:nth-child(2){
+    font-size: 22px;
+    padding: 15px;
+    font-weight: 800;
+}
+.foodScroll div p:nth-child(3){
+  color: #966e4e;
+  
+}
+.foodScroll div button{
+  background: none;
+  border: none;
+  color: tomato;
+  border-bottom: 2px solid tomato;
+  font-size: 17px;
+  padding: 6px;
+  margin: 10px;
+  margin-top: 30px;
+}
+@media screen and (max-width:600px) {
+  .top{
+    display: flex;
+    background-color: #FFF4F2;
+  }
+
+  .right{
+    display: none;
+      width: 50vw;
+
+  }
+  .right img{
+      width: 50vw;
+      height: 100%;
+  }
+  .left{
+      display: flex;
+      height: 70vh;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+  }
+  .left p:nth-child(1){
+      text-align: left;
+      font-weight: 800;
+      font-size: 45px;
+      color: #4D312C;
+  }
+  .left p:nth-child(2){
+      font-weight: 200;
+      padding: 10px 0;
+      font-size: 20px;
+  }
+  .left ul{
+
+      align-self: flex-start;
+      margin-top: 50px;
+
+  }
+  .left ul li:nth-child(1){
+      padding: 25px 65px;
+      font-size: 20px;
+      background: tomato;
+      color: white;
+      font-weight: 600;
+      margin: 0 15px;
+      border-radius: 40px;
+  }
+  .left ul li:nth-child(2){
+      color: tomato;
+      font-size: 20px;
+  }
+  @keyframes margin {
+      0%{
+      margin-top:10% ;
+      }
+      50%{
+      margin-top: 12%;
+      }
+      100%{
+      margin-top: 10%;
+      }
+  }
+  .left{
+    width: 100%;
+
+  }
+  .dish{
+    
+      padding: 10px;
   }
   .menu{
     display: flex;
@@ -85,7 +297,7 @@
     justify-content: space-between;
   }
   .dishtop div:nth-child(1){
-    width: 45%;
+    width: 100%;
   }
   .dishtop div:nth-child(1) p:nth-child(1){
     color: darkred;
@@ -190,9 +402,9 @@
 
   }
   .foodScroll div p:nth-child(2){
-     font-size: 22px;
-     padding: 15px;
-     font-weight: 800;
+      font-size: 22px;
+      padding: 15px;
+      font-weight: 800;
   }
   .foodScroll div p:nth-child(3){
     color: #966e4e;
@@ -208,3 +420,4 @@
     margin: 10px;
     margin-top: 30px;
   }
+}
