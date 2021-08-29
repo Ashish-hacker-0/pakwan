@@ -41,6 +41,45 @@
 .li:hover{
    margin-top: -3px;
 }
+
+.insta div{
+    display: flex;
+    width: 200vw;
+    height: 30vh;
+    animation: move 10s infinite;
+}
+.insta div img{
+width: 10%;
+}
+.insta button{
+position: relative;
+z-index: 0;
+top:-15vh;
+left: 45vw;
+background: white;
+color: tomato;
+border: none;
+padding: 10px;
+display: flex;
+border-radius: 20px;
+font-size: 16px;
+align-items: center;
+font-weight: 600;
+}
+.insta button span{
+   margin-left: 5px;
+}
+@keyframes move {
+    0%{
+        margin-left: 0%;
+    }
+    40%{
+        margin-left: -20%;
+    }
+    80%{
+        margin-left: -40%;
+    }
+}
 @media screen and (max-width:600px) {
     .footer{
         display: flex;
@@ -86,4 +125,38 @@
     .li:hover{
        margin-top: -3px;
     }
+    .insta div{
+        display: flex;
+        width: 200vw;
+        height: 20vh;
+        animation: move 10s infinite;
+      }
+      .insta div img{
+       width: 25%;
+      }
+      .insta button{
+      
+        left: 35vw;
+       
+      }
+      @keyframes move {
+        0%{
+          margin-left: 0%;
+        }
+        20%{
+          margin-left: -50%;
+        }
+        40%{
+          margin-left: -100%;
+        }
+        60%{
+          margin-left: -150%;
+        }
+        80%{
+          margin-left: -200%;
+        }
+        100%{
+          margin-left: -250%;
+        }
+      }
 }

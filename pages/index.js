@@ -112,18 +112,6 @@ export default function Home() {
              </form>
            </div>
        </div>
-       <div className={styles.insta}>
-          <div>
-            <img src="/1.jpeg"/>
-            <img src="/2.jpeg"/>
-            <img src="/3.jpeg"/>
-            <img src="/4.jpeg"/>
-            <img src="/5.jpeg"/>
-            <img src="/6.jpeg"/>
-            <img src="/7.jpeg"/>
-          </div>
-          <button><a href="https://www.instagram.com/pakwandbg/" target="_blank"> <AiFillInstagram/> <span>@pakwandbg</span></a></button>
-       </div>
     </div>
   )
 }
