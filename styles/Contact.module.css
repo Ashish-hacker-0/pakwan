@@ -1,0 +1,147 @@
+.top{
+    display: flex;
+    background-color: #FFF4F2;
+}
+
+.right{
+    width: 50vw;
+
+}
+.right img{
+    width: 50vw;
+    height: 100%;
+}
+.left{
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+.left p:nth-child(1){
+    text-align: left;
+    font-weight: 800;
+    font-size: 45px;
+    color: #4D312C;
+}
+.left p:nth-child(2){
+    font-weight: 200;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.left ul{
+
+    align-self: flex-start;
+    margin-top: 50px;
+
+}
+.left ul li:nth-child(1){
+    padding: 25px 65px;
+    font-size: 20px;
+    background: tomato;
+    color: white;
+    font-weight: 600;
+    margin: 0 15px;
+    border-radius: 40px;
+}
+.left ul li:nth-child(2){
+    color: tomato;
+    font-size: 20px;
+}
+.left{
+   width: 50vw;
+}
+.map{
+    padding: 50px;
+}
+.address{
+    display: flex;
+    justify-content: center;
+}
+.address li{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.address li svg{
+    color: tomato;
+    margin: 0 10px;
+}
+@media screen and (max-width:600px) {
+    .top{
+        display: flex;
+        background-color: #FFF4F2;
+    }
+    
+    .right{
+        display: none;
+        width: 50vw;
+    
+    }
+    .right img{
+        width: 50vw;
+        height: 100%;
+    }
+    .left{
+        display: flex;
+        height: 70vh;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+    }
+    .left p:nth-child(1){
+        text-align: left;
+        font-weight: 800;
+        font-size: 45px;
+        color: #4D312C;
+    }
+    .left p:nth-child(2){
+        font-weight: 200;
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    .left ul{
+    
+        align-self: flex-start;
+        margin-top: 50px;
+    
+    }
+    .left ul li:nth-child(1){
+        padding: 25px 65px;
+        font-size: 20px;
+        background: tomato;
+        color: white;
+        font-weight: 600;
+        margin: 0 15px;
+        border-radius: 40px;
+    }
+    .left ul li:nth-child(2){
+        color: tomato;
+        font-size: 20px;
+    }
+    .left{
+       width: 100%;
+    }
+    .map{
+        padding: 10px;
+    }
+    .address{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .address li{
+        display: flex;
+        padding: 20px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .address li svg{
+        color: tomato;
+        margin: 0 10px;
+    }
+}
