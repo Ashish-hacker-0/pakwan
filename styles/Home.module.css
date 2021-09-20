@@ -48,10 +48,23 @@
     font-weight: 600;
     margin: 0 15px;
     border-radius: 40px;
+    cursor: pointer;
 }
 .left ul li:nth-child(2){
   color: tomato;
   font-size: 20px;
+  cursor: pointer;
+}
+.close{
+  background-color: black;
+  color: white;
+  position: fixed;
+  top:10px;
+  right: 10px;
+  border-radius:50%;
+  padding: 20px;
+  padding-top: 25px;
+  font-size: 30px;
 }
 @keyframes margin {
    0%{
@@ -157,6 +170,7 @@
 .foodSection ul li{
   margin-right: 50px;
   padding: 13px 0;
+  cursor: pointer;
 }
 .active{
   color: tomato;
@@ -304,7 +318,20 @@
 .date:valid:before {
   content: "";
 }
-
+.video{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.267);
+  z-index: 100;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.video video{
+  width: 70%;
+  height: 80%;
+}
 @media screen and (max-width:600px) {
   .top{
     display: flex;
