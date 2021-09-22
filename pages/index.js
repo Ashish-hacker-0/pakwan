@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className={styles.home}>
     {video&&<div className={styles.video}  >
-      <div className={styles.close}  onClick={()=>setVideo(false)} ><AiOutlineClose/> </div>
+      <div className={styles.close}  onClick={()=>setVideo(false)} ></div>
       <video src="/video.mp4" autoPlay controls onClick={()=>setVideo(true)} />
     </div>}
        <div className={styles.top}>
