@@ -39,7 +39,7 @@ const Navbar = () => {
                       Book a Table
                   </li>
                   <li className={classes.call}>
-                    <IoIosCall/>  +91 94702 44400
+                    <IoIosCall/> <a href="tel:+919470244400"> +91 94702 44400</a>
                   </li>
               </ul>
           </div>

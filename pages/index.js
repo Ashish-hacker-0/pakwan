@@ -4,6 +4,7 @@ import {FaPlay} from 'react-icons/fa';
 import {GiHamburger,GiHotMeal} from 'react-icons/gi';
 import {CgCoffee} from 'react-icons/cg';
 import { useState } from 'react';
+import Link from 'next/link'
 export default function Home() {
   const [breakfast,setBreakfast] = useState(true);
   const [lunch,setLunch] = useState(false);
@@ -27,7 +28,7 @@ export default function Home() {
           <div className={styles.left}>
              <p>Meet, Eat & Enjoy the true taste</p>
              <p>Making a reservation at Delicious resturant is easy and takes just a couple of minutes.</p>
-             <ul><li>Our Menu</li><li onClick={()=>setVideo(true)} > <FaPlay/> Watch Video</li></ul>
+             <ul><li><Link href="/menu">Our Menu</Link></li><li onClick={()=>setVideo(true)} > <FaPlay/> Watch Video</li></ul>
           </div>
           <div className={styles.right}>
               <img src="/food.png"/>
@@ -53,7 +54,7 @@ export default function Home() {
               <p>Making a reservation at Délicious restaurant is easy and takes just a couple of minutes.</p>
             </div>
             <div>
-              <button>Full Menu</button>
+              <button><Link href="/menu">Full Menu</Link></button>
             </div>
           </div>
           <div className={styles.foodSection}>
