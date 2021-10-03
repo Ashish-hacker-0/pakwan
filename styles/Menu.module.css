@@ -75,10 +75,6 @@
   padding: 10px;
 }
 .menu img{
-  border-radius: 30px;
-  width: 100%;
-  box-shadow: 5px 5px 5px black;
-
 }
 .dishtop{
   display: flex;
@@ -110,8 +106,15 @@
 .foodSection{
   border-bottom: 1px solid lightblue;
   margin: 10px 0;
-  padding: 15px 0;
+  padding: 20px 0;
+  width: 85vw;
+  white-space: nowrap;
+  overflow-x: scroll;
 }
+.foodSection::-webkit-scrollbar {
+  display: none;
+}
+
 .foodSection ul{
   font-weight: 700;
   color: gray;
@@ -120,7 +123,7 @@
 .foodSection ul li{
 
   margin-right: 50px;
-  padding: 13px 0;
+  padding: 8px 0;
 }
 .active{
   color: tomato;
@@ -287,9 +290,6 @@
     padding: 10px;
   }
   .menu img{
-    border-radius: 30px;
-    width: 100%;
-    box-shadow: 5px 5px 5px black;
 
   }
   .dishtop{
@@ -321,18 +321,25 @@
   }
   .foodSection{
     border-bottom: 1px solid lightblue;
-    margin: 10px 0;
-    padding: 15px 0;
+    margin: 5px 0;
+    padding: 10px 0;
+    width: 85vw;
+    white-space: nowrap;
+    overflow-x: scroll;
   }
+  .foodSection::-webkit-scrollbar {
+    display: none;
+  }
+  
   .foodSection ul{
     font-weight: 700;
     color: gray;
-    font-size: 17px;
+    font-size: 14px;
   }
   .foodSection ul li{
-
-    margin-right: 50px;
-    padding: 13px 0;
+  
+    margin-right: 20px;
+    padding: 8px 0;
   }
   .active{
     color: tomato;
@@ -341,10 +348,16 @@
   .foodContainer{
     width: 90vw;
   }
+  .active{
+    color: tomato;
+    border-bottom: 4px solid tomato;
+  }
+
   .foodScroll{
     
     margin-left: 0;
     display: flex;
+    flex-direction:column;
     flex-wrap: wrap;
   }
   @keyframes sroll {
@@ -394,7 +407,7 @@
     border-radius: 20px;
     text-align: center;
     margin: 10px;
-    width: 27vw;
+    width:100%;
     border: 1px solid lightgray;
   }
   .foodScroll div:hover{
