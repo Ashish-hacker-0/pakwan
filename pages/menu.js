@@ -173,7 +173,7 @@ const Menu = () => {
                   <button>Order Now</button>
               </div>
               <div>
-                  <img src="/vegb.jpg"/>
+                  <img src="/vbiryani.jpg"/>
                   <p>Veg. Biryani</p>
                   <p>₹ 160</p>
                   <button>Order Now</button>
@@ -218,7 +218,7 @@ const Menu = () => {
                   <button>Order Now</button>
               </div>
               <div>
-                  <img src="/pizza.jpg"/>
+                  <img src="/gice.jpg"/>
                   <p>Gulab Jamun with Ice-Cream</p>
                   <p>₹ 90</p>
                   <button>Order Now</button>
@@ -271,7 +271,7 @@ const Menu = () => {
             </div>}
           {i4&&<div className={styles.foodScroll}>
               <div>
-                  <img src="/pizza.jpg"/>
+                  <img src="/cosandwich.jpg"/>
                   <p>Cucumber Onion</p>
                   <p>₹ 70</p>
                   <button>Order Now</button>
@@ -359,7 +359,7 @@ const Menu = () => {
                   <button>Order Now</button>
               </div>
               <div>
-                  <img src="/chillipanner.jpg"/>
+                  <img src="/chillipaneer.jpg"/>
                   <p>Paneer Chilli (8pcs)</p>
                   <p>₹ 195</p>
                   <button>Order Now</button>
@@ -441,7 +441,7 @@ const Menu = () => {
                   <button>Order Now</button>
               </div>
               <div>
-                  <img src="/msoup.jpg"/>
+                  <img src="/masoup.jpg"/>
                   <p>Manchew Soup</p>
                   <p>₹ 125</p>
                   <button>Order Now</button>
