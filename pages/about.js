@@ -21,10 +21,12 @@ const About = () => {
                     <img src="/owner.jpeg"/>
                 </div>
                 <div>
-                    <p>Amit Kumar Mahto</p>
+                    <p>Amit Kumar</p>
                     <p>Managing Director of Celebration Event</p>
                     <p>Bachelor of Science Hospitality and Hotel Administration</p>
                     <p>from</p>
+                    <p>INSTITUTE OF HOTEL MANAGEMENT</p>
+                    <p>&</p>
                     <p>INDIRA GANDHI NATIONAL OPEN UNIVERSITY</p>
                 </div>
             </div>
